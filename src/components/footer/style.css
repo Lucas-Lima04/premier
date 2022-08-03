@@ -1,0 +1,45 @@
+.footer {
+    padding: 2rem 12rem;
+    text-align: center;
+    position: relative;
+    
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.ps {
+    height: 4.7rem;
+    margin-top: 3rem;
+}
+
+h2 {
+    color: #fff;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.apoiadores {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p {
+    color: #fff;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.bottom1, .bottom2 {
+    position: absolute;
+    bottom: -2rem;
+}
+
+.bottom2 {
+    right: -2rem;
+}
+
+.bottom1 {
+    left: -2rem;
+}

@@ -1,0 +1,41 @@
+.how-it-works {
+    background-color: #2B2B2B;
+    padding: 2rem 9rem;
+}
+
+.steps {
+    display: inline-flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.steps img {
+    z-index: 2;
+    margin-left: 4rem;
+    height: 7rem;
+    margin-top: 1.8rem;
+}
+.steps h1 {
+    margin: 0;
+    font-weight: 800;
+    margin-bottom: -10rem;
+    font-size: 10rem;
+    line-height: 10rem;
+    color: #0E4ED2;
+    
+    margin-left: -15%;
+}
+
+.steps div {
+    padding: 3.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.steps p {
+    font-size: 1.35rem;
+}
+
+.steps h2 {
+    font-size: 1.7rem;
+}
