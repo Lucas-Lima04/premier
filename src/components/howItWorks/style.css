@@ -3,6 +3,71 @@
     padding: 2rem 9rem;
 }
 
+@media screen and (max-width: 1500px) {
+    .how-it-works {
+        padding: 2rem 5rem;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .how-it-works {
+        padding: 2rem 2rem !important;
+    }
+    .steps .step {
+        padding: 2rem !important;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 965px) {
+    .how-it-works {
+        padding: 2rem 1rem !important;
+    }
+    .steps .step {
+        padding: 1rem !important;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .steps .step {
+        width: 100%;
+    }
+    .steps {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .row {
+        display: block !important;
+    }
+
+    .steps .step {
+        width: auto !important;
+        text-align: center;
+        padding: 3rem 4rem !important;
+    }
+
+    .steps h1 {
+        margin-left: -5rem !important;
+    }
+
+    .step img {
+        margin-left: 4rem !important;
+    }
+
+    .step h2 {
+        font-size: 3rem !important;
+    }
+
+    .step p {
+        font-size: 1.8rem !important;
+    }
+}
+
 .steps {
     display: inline-flex;
     justify-content: space-around;
@@ -26,12 +91,16 @@
     margin-left: -15%;
 }
 
-.steps div {
+.steps .step {
     padding: 3.5rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
+.steps .row {
+    display: flex;
+    width: 100%;
+}
 .steps p {
     font-size: 1.35rem;
 }

@@ -15,11 +15,11 @@ function Footer() {
 
             <h2>APOIADORES</h2>
             <div className="apoiadores">
-                <img src={cocriar} alt="cocriar" style={{width: "20%"}}/>
-                <img src={ciblu} alt="" style={{width: "22%"}}/>
-                <img src={scangels} alt="" style={{width: "18%"}}/>
-                <img src={israel} alt="" style={{width: "10%"}}/>
-                <img src={gene} alt="" style={{width: "10%"}}/>
+                <img src={cocriar} className="wide cocriar" alt="cocriar" style={{width: "20%"}}/>
+                <img src={ciblu} className="wide" alt="" style={{width: "22%"}}/>
+                <img src={scangels} className="wide" alt="" style={{width: "18%"}}/>
+                <img src={israel} className="square" alt="" style={{width: "10%"}}/>
+                <img src={gene} className="square" alt="" style={{width: "10%"}}/>
             </div>
 
             <p>Todos os direitor reservados a Premiersoft 2022  |  Veja as nossa políticas de privacidade</p>

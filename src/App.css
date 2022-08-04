@@ -21,20 +21,20 @@ body {
 }
 
 .header h1 {
-  font-size: 5rem;
+  font-size: 4.8rem;
   margin: 0;
 }
 
 .header h2 {
   font-weight: 400 !important;
-  font-size: 3.25rem;
+  font-size: 3rem;
   margin: 0;
   margin-top: -0.4rem;
 }
 
 .header p {
   font-size: 1.85rem; 
-  margin: 3.3rem 26.2%;
+  margin: 3.3rem 25%;
 }
 
 .header h3 {
@@ -75,4 +75,62 @@ body {
   outline: none;
   -webkit-box-shadow: 0px 1rem 0px 0px #001B54; 
   box-shadow: 0px 1rem 0px 0px #001B54;
+}
+
+.double-input {
+  display: flex;
+}
+
+@media screen and (max-width: 1000px) {
+  .double-input {
+    display: block;
+  }
+
+  .form {
+    margin: 3rem 10%;
+  }
+
+  .header p {
+    margin: 3.3rem 15.2%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .double-input {
+    display: block;
+  }
+
+  .form {
+    margin: 3rem 4%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header p {
+    margin: 3.3rem 5%;
+  }
+
+  input {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header h1 {
+    font-size: 4rem;
+  }
+
+  .header h2 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header h1 {
+    font-size: 3rem;
+  }
+
+  .header h2 {
+    font-size: 2rem;
+  }
 }

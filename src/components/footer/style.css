@@ -43,3 +43,64 @@ p {
 .bottom1 {
     left: -2rem;
 }
+
+@media screen and (max-width: 1280px) {
+
+    .footer {
+        padding: 3rem 7rem;
+    }
+  }
+
+@media screen and (max-width: 1000px) {
+    .ps {
+        height: 3.5rem;
+    }
+
+    .footer {
+        padding: 2rem 5rem;
+    }
+
+    .bottom1, .bottom2 {
+        bottom: -5rem;
+    }
+
+    .bottom2 {
+        right: -4rem;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .apoiadores {
+        display: inline-grid;
+        text-align: center;
+    }
+
+    .apoiadores .wide {
+        width: auto !important;
+        height: 5rem !important;
+        margin: 2rem auto;
+    }
+    
+    .apoiadores .cocriar {
+        height: 3rem !important;
+    }
+    .apoiadores .square {
+        height: auto !important;
+        width: 10rem !important;
+        margin: 0.5rem auto;
+    }
+
+    .ps {
+        height: 5rem !important;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        margin: 5rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+        margin: 3rem 0rem 1rem 0rem;
+    }
+  }
