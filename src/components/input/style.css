@@ -8,6 +8,18 @@ input, textarea {
     margin: 0.66rem;
 }
 
+@media screen and (max-width: 800px) {
+    input, textarea {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    input, textarea {
+        font-size: 0.8rem;
+    }
+}
+
 input::placeholder, textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #fff;
     opacity: 1; /* Firefox */

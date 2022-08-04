@@ -79,6 +79,20 @@
     }
 }
 
+
+@media screen and (max-width: 400px) {
+    .steps .step {
+        padding: 1rem !important;
+    }
+
+    .how-it-works h3 {
+        font-size: 2rem !important;
+    }
+
+    .step h2 {
+        font-size: 2rem !important;
+    }
+}
 .steps {
     display: inline-flex;
     justify-content: space-around;
