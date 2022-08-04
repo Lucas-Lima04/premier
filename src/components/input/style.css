@@ -14,11 +14,6 @@ input, textarea {
     }
 }
 
-@media screen and (max-width: 600px) {
-    input, textarea {
-        font-size: 0.8rem;
-    }
-}
 
 input::placeholder, textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #fff;
